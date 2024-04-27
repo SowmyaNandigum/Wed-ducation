@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(0, 0, 34),rgb(0, 0, 74),rgb(0, 0, 118),rgb(0, 0, 140),rgb(0, 72, 144)),rgb(0, 221, 255);
+}
+.head{
+    display: flex;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.head h1{
+    color:white;
+    font-weight:bolder;
+    letter-spacing: 10px;
+}
+.innn1{
+    display: flex;
+    position: relative;
+    height: 150px;
+    margin: 10px auto;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    
+
+}
+.in11{
+    height: 100%;
+    width: 23%;
+    background: url("./img/no-1.png");
+}
+.in11 img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.in12{
+    height: 100%;
+    width: 27.5%;
+    background: url("./img/no-2.png");
+}
+.in12 img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.in13{
+    height: 100%;
+    width: 25%;
+    background: url("./img/no-3.png") center  ;
+}
+.in13 img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.in14{
+    height: 100%;
+    width: 25.5%;
+    background: url("./img/no-4.png") center  ;
+}
+.in14 img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.in15{
+    height: 100%;
+    width: 27%;
+    background: url("./img/no-5.png") center  ;
+}
+.in15 img{
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.in2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: bisque;
+}
+.in2 h1{
+    letter-spacing: 2px;
+}
+
+
+.test-btn{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.test-btn button{
+    height: 50px;
+    width: 200px;
+
+}
+.test-btn button:hover{
+    background-color: aqua;
+    box-shadow: 0 0 10px aqua,0 0 20px aqua,0 0 10px aqua, 0 0 10px aqua;
+    transition:all 1s ease 0.2s;
+
+}
+.test-btn button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}

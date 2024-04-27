@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.container{
+    min-height: 100vh;
+    background-color: rgb(5, 0, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(0, 0, 40),rgb(0, 0, 74),rgb(0, 0, 187),rgb(0, 112, 144),rgb(0, 234, 255));
+
+
+}
+header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 10px;
+    /* background: linear-gradient( black,rgb(43, 43, 43),rgb(49, 49, 49)); */
+    opacity: 0.9;
+ 
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 15px auto;
+    justify-content: space-between ;
+ }
+ .navbar .logo{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    
+ }
+ .navbar .logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+ 
+ }
+ .navbar .logo h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+ 
+ }
+ .navbar .links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+ 
+ }
+ 
+ .navbar .links a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500; 
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 800;
+ }
+ .navbar .links a:hover,
+ .navbar .links .active{
+    color: #0036d9;
+    
+    
+ }
+
+
+ .inner-container1{
+    display: flex;
+    height: 500px;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #bc2a2a;
+    background: linear-gradient(rgb(255, 41, 41),rgb(235, 32, 32),rgb(232, 79, 79),rgb(235, 78, 78),rgb(239, 103, 103));
+    flex-direction: column;
+    gap: 50px;
+ }
+
+
+
+ /* upload button ------------------------------------ */
+ #custom-button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    background-color:  #000a45;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 1s ease 0.2;
+  }
+  
+  #custom-button:hover {
+    background-color: #2196f3;
+ 
+    box-shadow: 0 0 10px #2196f3 , 0 0 10px #2196f3 , 0 0 10px #2196f3 , 0 0 10px #2196f3 ;
+    
+  }
+  
+  #custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+  }
+
+  .get-sum-btn{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    align-items: center;
+    
+  }
+
+  .get-sum-btn:hover{
+    width: 150%;
+  }
+  
+

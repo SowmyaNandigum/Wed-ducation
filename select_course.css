@@ -1,0 +1,153 @@
+:root{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ }
+
+ header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 10px;
+    background-color: black;
+    position: fixed;
+
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 15px auto;
+    justify-content: space-between ;
+ }
+ .navbar .logo{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    
+ }
+ .navbar .logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+ 
+ }
+ .navbar .logo h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+ 
+ }
+ .navbar .links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+ 
+ }
+ 
+ .navbar .links a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500; 
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 800;
+ }
+ .navbar .links a:hover,
+ .navbar .links .active{
+    color: #0036d9;
+    
+    
+ }
+
+.sec-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 90px;
+    justify-content: center;
+    align-items: center;
+    /* background:linear-gradient(black,grey,grey,grey,white) */
+    background-color: white;
+    
+}
+
+.sec-1 .box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    justify-content: space-evenly;  
+    text-align: center;
+    align-items:center; 
+    
+    background-color: #bbd0ff;
+    border-radius: 15px;
+    box-shadow: 30px 20px 20px 10px rgb(0, 0, 0);
+    opacity: 0.8;
+
+    
+
+}
+.sec-1 .box:hover{
+    cursor: pointer;
+    background: linear-gradient(#e48ee4,#e7c6ff,#c8b6ff,#b8c0ff);
+    color: rgb(0, 0, 0);
+    width: 1200px;
+    font-weight: 700;
+    transition: all 0.2s ease 0.2s;
+
+    
+
+}
+.sec-1 .box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+
+    
+}
+.sec-1 .box h1{
+    font-size: 50px;
+
+
+}
+
+.sec-1 .box button
+{
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* letter-spacing: 4px; */
+    border: 2px solid ;
+    
+
+}
+
+.sec-1 .box button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: white;
+    width: 800 px;
+    border-radius: 15px;
+    letter-spacing: 5px;
+    transition: all  0.5s ease 0.2s;
+}
+ 

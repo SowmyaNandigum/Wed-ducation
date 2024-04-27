@@ -1,0 +1,264 @@
+
+:root{
+   font-family: "Raleway", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* carousel */
+
+.carousel_inner{
+   width: 100%;
+   overflow: hidden;
+   
+}
+
+.carousel_inner::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.carousel_item{
+   position: relative;
+   float: left;
+   display: none;
+   width: 100%;
+   margin-right: -100%;
+}
+
+/* slide effect */
+.carousel_item__active,
+.carousel_item__pos_next{
+   display: block;
+}
+
+.carousel_item__pos_next{
+   left: 100%;
+}
+
+.carousel_item__next{
+   transform: translateX(-100%);
+   transition: transform .5s ease-in-out;
+}
+
+/* fade effect */
+.carousel__fade .carousel_item__pos_next{
+   left: 0;
+   opacity: 0;
+}
+
+.carousel__fade .carousel_item__next{
+   transform: none;
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+}
+
+.carousel__fade .carousel_item__active.carousel_item__next{
+   opacity: 0;
+}
+
+/* carousel */
+.carousel_img{
+   display: block;
+   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* my editing here onwards  */
+header{
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+   left: 0;
+   top: 0;
+   padding: 0 10px;
+   background: linear-gradient( black,rgb(43, 43, 43),rgb(49, 49, 49));
+   opacity: 0.9;
+
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   max-width: 1200px;
+   margin: 15px auto;
+   justify-content: space-between ;
+}
+.navbar .logo{
+   display: flex;
+   gap: 10px;
+   text-decoration: none;
+   align-items: center;
+   
+}
+.navbar .logo img{
+   width: 60px;
+   height: 60px;
+   border-radius: 50px;
+
+}
+.navbar .logo h2{
+   font-size: 1.7rem;
+   font-weight: 600;
+   letter-spacing: 3px;
+   color: #fff;
+
+}
+.navbar .links{
+   display: flex;
+   list-style: none;
+   gap: 35px;
+
+}
+
+.navbar .links a{
+   text-decoration: none;
+   font-size: 1.1rem;
+   font-weight: 500; 
+   color: #fff;
+   letter-spacing: 3px;
+   font-weight: 800;
+}
+.navbar .links a:hover,
+.navbar .links .active{
+   color: #0036d9;
+   
+   
+}
+
+.navbar .login-btn{
+   border: none;
+   outline: none;
+   font-size: 1rem;
+   font-weight: 600;
+   padding: 10px 18px;
+   border-radius: 3px;
+   cursor: pointer;
+     background: #fff;
+     letter-spacing: 2px;
+}
+
+
+
+/* Title */
+
+.main-heading
+{
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   z-index: 2;
+   color: rgb(251, 251, 251);
+   width: 1200px;
+   justify-content: center;
+   align-items: center;
+   top: 150px;
+   left: 150px;
+   height: 400px;
+   /* background-color: rgb(0, 0, 0); */
+   /* opacity: 0.7; */
+   border-radius: 25px;
+
+   /* background: linear-gradient(rgb(0, 16, 80),rgb(0, 6, 86),rgb(0, 11, 168) , rgb(0, 0, 225),rgb(0, 53, 119),rgb(0, 177, 187),rgb(157, 157, 166) 
+   ); */
+   
+}
+.main-heading h1{
+   top: 20px;
+   font-size:150px ;
+   z-index: 2;
+   letter-spacing: 10px;
+   font-weight: 700;
+   transition: all 2s ease 0.2s ;
+   
+}
+
+.main-heading span{
+   padding: 20px;
+   font-size: 30px;
+   z-index: 2;
+   letter-spacing: 10px;
+   font-weight: 900;
+   transition: all 2s ease 0.2s;
+} 
+
+
+
+/* login and signup buttons */
+.btn-login-sign{
+   display: flex;
+   position: absolute;
+   z-index: 1;
+   justify-content: space-around;
+   width: 30%;
+   align-items: center;
+   top: 500px;
+   height: 100px;
+   left: 520px;
+}
+
+.btn-login-sign button{
+   height: 50px;
+   width: 200px;
+   background-color: black;
+   opacity: 0.7;
+   border-radius: 10px;
+   color: transparent;
+  
+
+   
+
+
+}
+.btn-login-sign button:hover{  
+  
+   cursor: pointer;
+   background-color: #008cff;
+ 
+   box-shadow: 0 0 10px #003d6f , 0 0 20px #02345e , 0 0 20px #00345f , 0 0 40px #00223d ;
+   transition: all 0.5s ease 0.2s;
+   
+}
+.btn-login-sign button .span1{
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   letter-spacing: 4px;
+   font-weight: 700;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

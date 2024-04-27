@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    height: 100vh;
+    background: white !important;
+    letter-spacing: 0.5px;
+        
+}
+.container{
+    padding-top: 50px;
+        max-width: 600px;
+        margin: auto;
+        width: 100%;
+        font-size: 18px;
+        backdrop-filter: blur(8px) !important;
+        height: 65vh;
+        margin-left: 200px !important;
+}
+
+.answers label {
+    display: block;
+    
+}
+#quiz {
+    margin-bottom: 30px;
+    margin-top: 60px;
+    color: black;
+}
+#quiz input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.but a{
+    text-decoration: none;
+    color: black;
+}
+#tip{
+    color: black;
+    padding-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#score{
+    margin-top: 20px;
+    color: black;
+}
+
+
+header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 10px;
+    /* background: linear-gradient( black,rgb(43, 43, 43),rgb(49, 49, 49)); */
+    opacity: 0.9;
+  
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 15px auto;
+    justify-content: space-between ;
+  }
+  .navbar .logo{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    
+  }
+  .navbar .logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+  
+  }
+  .navbar .logo h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #000000;
+  
+  }
+  .navbar .links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+  
+  }
+  
+  .navbar .links a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500; 
+    color: #000000;
+    letter-spacing: 3px;
+    font-weight: 800;
+  }
+  .navbar .links a:hover,
+  .navbar .links .active{
+    color: #0036d9;
+    
+    
+  }

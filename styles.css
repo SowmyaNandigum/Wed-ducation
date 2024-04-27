@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./img/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }  
+  .btn a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /*navbar*/
+
+  header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 10px;
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 15px auto;
+    justify-content: space-between ;
+ }
+ .navbar .logo{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    
+ }
+ .navbar .logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+ 
+ }
+ .navbar .logo h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+ 
+ }
+ .navbar .links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+ 
+ }
+ 
+ .navbar .links a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500; 
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 800;
+ }
+ .navbar .links a:hover,
+ .navbar .links .active{
+    color: #0037dd;
+ }
+
+  .wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid black;
+    backdrop-filter: blur(9px);
+    color: black;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+  }
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder{
+    color: black;
+  }
+  .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+  
+  }
+  .wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .remember-forgot label input{
+    accent-color: black;
+    margin-right: 3px;
+  
+  }
+  .remember-forgot a{
+    color: black;
+    text-decoration: none;
+  
+  }
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  .wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+  }
+  .wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  
+  }
+  .register-link p a{
+    color: white;
+
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
